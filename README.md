@@ -99,12 +99,18 @@
 
 * **Screenshot :**
 
-1. Hasil akhir `sudo apt install ...` (bagian terminal setelah selesai install) : ![](https://drive.google.com/uc?export=view&id=1rd2SArbf4lQBh_kLMVacnSIbIYr96h6j)
-   Pengunduhan Source Kode Kernel : ![](https://drive.google.com/uc?export=view&id=1gxqU7XmlDSzsoQaQuz7VFwowCYHCuGQO)
-2. Proses ekstraksi kernel (`tar -xvf`) : ![](https://drive.google.com/uc?export=view&id=1tle67yNLWwJjzwfKfKTF_1DN2_PWShwG)
-3. Tampilan `make menuconfig` saat mencentang salah satu opsi (misal: `/proc file system support`) : ![](https://drive.google.com/uc?export=view&id=1JzVn7yT2GJteOp-zoPo4vP-zRmm_caBu)
-4. Proses kompilasi kernel (`make -j$(nproc)`) : ![](https://drive.google.com/uc?export=view&id=1p-OLIyFdMcPdq2bxwvP8ekY2CSW8yOBh)
-5. Bukti file `bzImage` berhasil dibuat di direktori `osboot` : ![](https://drive.google.com/uc?export=view&id=1OKavAZshsI5WqRkTHm-3ujKvgBwb1ngn)
+1. Hasil akhir `sudo apt install ...` (bagian terminal setelah selesai install) :
+![](https://drive.google.com/uc?export=view&id=1rd2SArbf4lQBh_kLMVacnSIbIYr96h6j)
+   Pengunduhan Source Kode Kernel :
+![](https://drive.google.com/uc?export=view&id=1gxqU7XmlDSzsoQaQuz7VFwowCYHCuGQO)
+2. Proses ekstraksi kernel (`tar -xvf`) :
+![](https://drive.google.com/uc?export=view&id=1tle67yNLWwJjzwfKfKTF_1DN2_PWShwG)
+3. Tampilan `make menuconfig` saat mencentang salah satu opsi (misal: `/proc file system support`) :
+![](https://drive.google.com/uc?export=view&id=1JzVn7yT2GJteOp-zoPo4vP-zRmm_caBu)
+4. Proses kompilasi kernel (`make -j$(nproc)`) :
+![](https://drive.google.com/uc?export=view&id=1p-OLIyFdMcPdq2bxwvP8ekY2CSW8yOBh)
+5. Bukti file `bzImage` berhasil dibuat di direktori `osboot` :
+![](https://drive.google.com/uc?export=view&id=1OKavAZshsI5WqRkTHm-3ujKvgBwb1ngn)
 
 ---
 
@@ -146,9 +152,12 @@
 
 * **Screenshot :**
 
-1. Terminal saat menjalankan `mkdir -p myramdisk/...` di dalam direktori `osboot` : ![](https://drive.google.com/uc?export=view&id=1joNEQsVjy5YOGv0yh8Mujuctaf3Oy4md)
-2. Direktori myramdisk : ![](https://drive.google.com/uc?export=view&id=1dRjaoS8CEc2kqQmYUv7yLdfeCmxpJksZ)
-3. Hasil direktori di myramdisk : ![](https://drive.google.com/uc?export=view&id=19qfJi386RivvWr5y7E0f3nvc5e4BaHWM)
+1. Terminal saat menjalankan `mkdir -p myramdisk/...` di dalam direktori `osboot` :
+![](https://drive.google.com/uc?export=view&id=1joNEQsVjy5YOGv0yh8Mujuctaf3Oy4md)
+2. Direktori myramdisk :
+![](https://drive.google.com/uc?export=view&id=1dRjaoS8CEc2kqQmYUv7yLdfeCmxpJksZ)
+3. Hasil direktori di myramdisk :
+![](https://drive.google.com/uc?export=view&id=19qfJi386RivvWr5y7E0f3nvc5e4BaHWM)
 
 ---
 
@@ -247,12 +256,17 @@
 
 * **Screenshot:**
 
-1. Isi direktori `myramdisk/home` : ![](https://drive.google.com/uc?export=view&id=19qfJi386RivvWr5y7E0f3nvc5e4BaHWM)
-2. Isi direktori `myramdisk/dev` setelah penyalinan device file : ![](https://drive.google.com/uc?export=view&id=1oQwi6nvUVl9mIUgTbLgSUZDlD1kuSfB5)
-3. Hasil dari `openssl passwd -1 ...` untuk masing-masing user : ![](https://drive.google.com/uc?export=view&id=1V5hFHeHFctj-0jo1M97ff4_ix_dKIfbP)
-4. Isi direkrori `myramdisk/etc` : ![](https://drive.google.com/uc?export=view&id=1V5hFHeHFctj-0jo1M97ff4_ix_dKIfbP)
-5. Isi file `passwd` dan `group` di `myramdisk/etc/` : ![](https://drive.google.com/uc?export=view&id=1mJgGeTIZCq_zkjdAqIB1bjPARUmZ93RB)
-   ![](https://drive.google.com/uc?export=view&id=1gKIdb1JH9tM8fXW3cf3yU6ZJvhiJGsaD)
+1. Isi direktori `myramdisk/home` :
+![](https://drive.google.com/uc?export=view&id=19qfJi386RivvWr5y7E0f3nvc5e4BaHWM)
+2. Isi direktori `myramdisk/dev` setelah penyalinan device file :
+![](https://drive.google.com/uc?export=view&id=1oQwi6nvUVl9mIUgTbLgSUZDlD1kuSfB5)
+3. Hasil dari `openssl passwd -1 ...` untuk masing-masing user :
+![](https://drive.google.com/uc?export=view&id=1V5hFHeHFctj-0jo1M97ff4_ix_dKIfbP)
+4. Isi direkrori `myramdisk/etc` :
+![](https://drive.google.com/uc?export=view&id=1V5hFHeHFctj-0jo1M97ff4_ix_dKIfbP)
+5. Isi file `passwd` dan `group` di `myramdisk/etc/` :
+![](https://drive.google.com/uc?export=view&id=1mJgGeTIZCq_zkjdAqIB1bjPARUmZ93RB)
+![](https://drive.google.com/uc?export=view&id=1gKIdb1JH9tM8fXW3cf3yU6ZJvhiJGsaD)
 
 ---
 
@@ -297,7 +311,9 @@
 
 * **Screenshot:**
 
-1. Permission dan Owner Berubah ke Root : ![](https://drive.google.com/uc?export=view&id=14LH0GAa-jWyWrNHhf4JhJE6c55zeE2Al)
-2. Akses Direktori Root Oleh User Non-Root Gagal : ![](https://drive.google.com/uc?export=view\&id=1K42kzpy51ZgKBubBM3tvzB1Y5FwWgKx_)
+1. Permission dan Owner Berubah ke Root :
+![](https://drive.google.com/uc?export=view&id=14LH0GAa-jWyWrNHhf4JhJE6c55zeE2Al)
+2. Akses Direktori Root Oleh User Non-Root Gagal :
+![](https://drive.google.com/uc?export=view\&id=1K42kzpy51ZgKBubBM3tvzB1Y5FwWgKx_)
 
 ---
